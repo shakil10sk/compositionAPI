@@ -1,15 +1,42 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <Data /> -->
+  <!-- <DemoOne /> -->
+  <!-- <DemoTwo /> -->
+  <!-- <Methods /> -->
+  <!-- <VModel /> -->
+  <!-- <ComputedReplace /> -->
+  <!-- <WatchComposition /> -->
+  <!-- <ProvideInject /> -->
+  <OlifeCycleHooks />
+  <ClifeCycleHooks />
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Data from './components/Data.vue';
+// import DemoOne from './components/DemoOne.vue';
+// import DemoTwo from './components/DemoTwo.vue';
+// import Methods from './components/Methods.vue'
+// import VModel from './components/VModel.vue'
+// import ComputedReplace from './components/ComputedReplace.vue'
+// import WatchComposition from './components/WatchCompositionAPI.vue'
+// import ProvideInject from './components/ProvideInject.vue'
+import OlifeCycleHooks from './components/O_lifeCycleHooks.vue'
+import ClifeCycleHooks from './components/C_lifeCycleHooks.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Data,
+    // DemoOne,
+    // DemoTwo,
+    // Methods,
+    // VModel,
+    // ComputedReplace,
+    // WatchComposition
+    // ProvideInject
+    OlifeCycleHooks,
+    ClifeCycleHooks
   }
 }
 </script>
